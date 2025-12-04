@@ -24,6 +24,18 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
+
+        // Download Button Toast Alert
+$('.btn-download-menu').click(function () {
+    // Get the toast element
+    const toastEl = document.getElementById('downloadToast');
+
+    // Check for element existence and Bootstrap object (ensuring Bootstrap JS is loaded)
+    if (toastEl && typeof bootstrap !== 'undefined' && bootstrap.Toast) {
+        const downloadToast = new bootstrap.Toast(toastEl);
+        downloadToast.show();
+    }
+});
     
     
     // Dropdown on mouse hover
@@ -94,6 +106,8 @@
         delay: 10,
         time: 2000
     });
+
+
 
 
     // Modal Video

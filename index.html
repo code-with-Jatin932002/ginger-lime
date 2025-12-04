@@ -32,6 +32,30 @@
 </head>
 
 <body>
+    <!-- <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="downloadToast" class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="4000">
+        <div class="d-flex">
+            <div class="toast-body">
+                🎉 Menu Download Started! Enjoy your read.
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div> -->
+<div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 20000;">
+    <div id="downloadToast" class="toast align-items-center text-white bg-primary border-0" 
+         role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="4000">
+        <div class="d-flex">
+            <div class="toast-body">
+                🎉 Menu Download Started! Enjoy your read.
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" 
+                    data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+
+
     <div class="container-fluid bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -81,8 +105,14 @@
                             <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                             <!-- <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a> -->
+                             <!-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start animated slideInLeft">
                              <a href="booking.html" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
                              <a href="assets/menu.pdf" download="GingerAndLimeMenu.pdf" class="btn btn-secondary py-sm-3 px-sm-5 me-3 animated slideInLeft">Download Menu</a>
+                        </div> -->
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start animated slideInLeft">
+    <a href="booking.html" class="btn btn-primary py-sm-3 px-sm-5">Book A Table</a>
+    <a href="assets/menu.pdf" download="GingerAndLimeMenu.pdf" class="btn btn-secondary py-sm-3 px-sm-5 btn-download-menu">Download Menu</a>
+</div>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                             <img class="img-fluid" src="img/hero14.png" alt="">
@@ -941,7 +971,9 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -949,6 +981,7 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
