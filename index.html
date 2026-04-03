@@ -85,7 +85,7 @@
                             <a href="about.html" class="nav-item nav-link">About</a>
                             <a href="menu.html" class="nav-item nav-link">Menu</a>
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Feature</a>
                                 <div class="dropdown-menu m-0">
                                     <a href="booking.html" class="dropdown-item">Booking</a>
                                     <a href="team.html" class="dropdown-item">Our Team</a>
@@ -103,7 +103,7 @@
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">Fresh Thai curries, Japanese favourites, and Chinese comfort food—cooked to order at Ginger &amp; Lime. Come for the spice, stay for the welcome.</p>
                             <!-- <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a> -->
                              <!-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start animated slideInLeft">
                              <a href="booking.html" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
@@ -147,12 +147,12 @@
                     <div class="col-lg-6">
                         <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
                         <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Ginger & Lime</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p class="mb-4">Ginger &amp; Lime brings together the dishes our guests crave most: aromatic Thai curries, delicate rolls and salads, and bold Chinese plates—all made with care in our kitchen.</p>
+                        <p class="mb-4">Whether you are planning a family dinner, a date night, or a quick lunch, we focus on fresh ingredients, balanced flavours, and hospitality that makes you want to come back.</p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">1</h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Years of</p>
                                         <h6 class="text-uppercase mb-0">Experience</h6>
@@ -161,7 +161,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">5</h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Popular</p>
                                         <h6 class="text-uppercase mb-0">Master Chefs</h6>
@@ -169,12 +169,30 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="#" data-bs-toggle="modal" data-bs-target="#aboutReadMoreModal">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
+
+        <div class="modal fade" id="aboutReadMoreModal" tabindex="-1" aria-labelledby="aboutReadMoreModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                <div class="modal-content border-0 shadow-lg overflow-hidden">
+                    <div class="modal-header border-0 text-white" style="background: linear-gradient(135deg, #FEA116 0%, #d8890f 100%);">
+                        <h5 class="modal-title fw-bold" id="aboutReadMoreModalLabel"><i class="fa fa-utensils me-2"></i>More about Ginger &amp; Lime</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4 p-lg-5">
+                        <p class="lead text-secondary">We are glad you want to know us better.</p>
+                        <p>Our menu is built around three kitchens in spirit—Thai, Japanese, and Chinese—so you can explore green and red curries, sushi and salads, noodles, dim sum, momos, and sizzlers without leaving your table.</p>
+                        <p>Every dish is prepared when you order, using vegetables and sauces we balance for heat, sweetness, and aroma. Ask our team for pairing tips or spice levels—we want your meal to feel personal.</p>
+                        <p class="mb-4">Browse the <a href="menu.html" class="text-primary fw-semibold">full menu</a> for prices and photos, or <a href="booking.html" class="text-primary fw-semibold">book a table</a> for your next visit.</p>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container-xxl py-5">
     <div class="container">
@@ -184,7 +202,7 @@
                     <div class="p-4">
                         <i class="fa fa-3x fa-user-tie mb-4"></i>
                         <h5>Master Chefs</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        <p>Experienced chefs across Thai, Japanese, and Chinese stations.</p>
                     </div>
                 </div>
             </div>
@@ -193,7 +211,7 @@
                     <div class="p-4">
                         <i class="fa fa-3x fa-utensils mb-4"></i>
                         <h5>Quality Food</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        <p>Fresh produce and honest cooking in every plate we serve.</p>
                     </div>
                 </div>
             </div>
@@ -202,7 +220,7 @@
                     <div class="p-4">
                         <i class="fa fa-3x fa-cart-plus mb-4"></i>
                         <h5>Online Order</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        <p>Call or message us to arrange takeaway when you are on the go.</p>
                     </div>
                 </div>
             </div>
@@ -210,8 +228,8 @@
                 <div class="service-item rounded pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-headset mb-4"></i>
-                        <h5>24/7 Service</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        <h5>Happy to help</h5>
+                        <p>Friendly staff during opening hours—ask us anything about the menu.</p>
                     </div>
                 </div>
             </div>
@@ -243,7 +261,7 @@
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Italian</h6>
+                                    <h6 class="mt-n1 mb-0">Japanese</h6>
                                 </div>
                             </a>
                         </li>
@@ -252,7 +270,7 @@
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Chinease</h6>
+                                    <h6 class="mt-n1 mb-0">Chinese</h6>
                                 </div>
                             </a>
                         </li>
@@ -266,9 +284,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Thai Green Curry</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹289</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Creamy coconut curry with Thai herbs, vegetables, and fragrant rice.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -278,9 +296,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Thai Red Curry</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹299</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Bold red curry paste and coconut milk with seasonal vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -290,9 +308,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Thai Yellow Curry</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹289</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Mild golden curry with potatoes, aromatics, and a gentle spice.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -302,9 +320,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Califarnia Urimaki Sushi</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹249</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Inside-out roll with crisp vegetables and classic accompaniments.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -314,9 +332,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Crispy Veggie Panner Maki</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹229</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Crunchy paneer maki with fresh veg and a spicy edge.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -326,9 +344,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Spicy Veggie Panner UriMaki</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹229</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Fiery uramaki roll with paneer and garden vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -338,9 +356,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Kimchi Salad(Korean)</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹89</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Tangy fermented cabbage salad, cool and refreshing.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -350,9 +368,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Thai Somyum(Citrus Salad)</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹119</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Zesty Thai salad with lime, herbs, and a bright citrus kick.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -366,9 +384,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Nasi Gorang(indonesia)</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹149</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Indonesian-style fried rice wok-tossed with vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -378,9 +396,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Kimchi Panner Rice(Korean)</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹169</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Korean-inspired rice bowl with kimchi and seasoned paneer.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -390,9 +408,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Panner Bao</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹179</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Fluffy steamed buns filled with spiced paneer.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -402,9 +420,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Mushroom Bao</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹149</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Soft bao packed with umami mushrooms.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -414,9 +432,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>vegetable Bao</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹129</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Light vegetable-stuffed bao, perfect for sharing.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -426,9 +444,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Manchow</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹79</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Indo-Chinese hot and sour soup topped with crisp noodles.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -438,9 +456,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Khao Suey</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹119</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Burmese-inspired coconut noodle bowl; add toppings your way.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -450,9 +468,21 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Lemon Corriender</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹79</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Clear soup lifted with lemon, coriander, and warmth.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/tibetansoup1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tibetan Thupka</span>
+                                                <span class="text-primary">₹89</span>
+                                            </h5>
+                                            <small class="fst-italic text-muted">Hearty Himalayan noodle soup with vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -466,9 +496,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chinese Sizzler</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹309</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Sizzling rice, vegetables, and Schezwan-style sauce at the table.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -478,9 +508,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Paneer Sizzler</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹329</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Paneer, veg, and rich sauce on a smoking hot iron plate.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -490,9 +520,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Spring Rolls</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Crispy rolls with a fresh vegetable filling.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -501,10 +531,22 @@
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/momos.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Veg/Panner Momos</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Veg Momos</span>
+                                                <span class="text-primary">₹69</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Steamed dumplings with mixed vegetable stuffing.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/momos.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Panner Momos</span>
+                                                <span class="text-primary">₹99</span>
+                                            </h5>
+                                            <small class="fst-italic text-muted">Momos stuffed with soft paneer and gentle spices.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -513,10 +555,22 @@
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/dimsum1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Veg/Paneer Crystal Dimsum</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Veg Crystal Dimsum</span>
+                                                <span class="text-primary">₹159</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Delicate translucent skins around a vegetable filling.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                  <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/dimsum1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paneer Crystal Dimsum</span>
+                                                <span class="text-primary">₹189</span>
+                                            </h5>
+                                            <small class="fst-italic text-muted">Crystal dim sum with spiced paneer at the centre.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -526,9 +580,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Veg Chowmein</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹109</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Wok-fried noodles with crunchy market vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -537,10 +591,22 @@
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/noddles.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chilli Garlic/Hakka Noodles</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Chilli Garlic Noodles</span>
+                                                <span class="text-primary">₹129</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Garlic-forward noodles with a touch of heat.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/noddles.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hakka Noodles</span>
+                                                <span class="text-primary">₹129</span>
+                                            </h5>
+                                            <small class="fst-italic text-muted">Classic Hakka-style stir-fried noodles.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -549,10 +615,22 @@
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/chillipaneer.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chilli Paneer Dry</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Schezwan Noddles</span>
+                                                <span class="text-primary">₹129</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Schezwan-spiced noodles, bold and aromatic.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/chillipaneer.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chilli Paneer Dry</span>
+                                                <span class="text-primary">₹199</span>
+                                            </h5>
+                                            <small class="fst-italic text-muted">Crispy paneer cubes in Indo-Chinese chilli sauce.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -562,9 +640,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Stuffed Mushroom in hot garlic</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹189</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Mushrooms stuffed and finished with hot garlic sauce.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -574,9 +652,9 @@
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                 <span>Chilli Mushroom Dry</span>
-                                                <span class="text-primary">$115</span>
+                                                <span class="text-primary">₹179</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic text-muted">Mushrooms in a dry, spicy glaze—great with noodles.</small>
                                         </div>
                                     </div>
                                 </div>
@@ -588,87 +666,67 @@
         </div>
         <!-- Menu End -->
 
+        <!-- Sizzlers Start -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Sizzling hot</h5>
+                    <h1 class="mb-3">Our signature sizzlers</h1>
+                    <p class="text-muted col-lg-8 mx-auto mb-5">Served on a smoking hot plate—layered rice, vegetables, and rich sauce. Replace the image files in your img folder anytime to show your own photos.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-white rounded shadow overflow-hidden h-100">
+                            <img class="img-fluid w-100" src="img/sizzlers.jpg" alt="Chinese sizzler at Ginger and Lime">
+                            <div class="p-4">
+                                <h4 class="text-primary mb-2">Chinese sizzler</h4>
+                                <p class="text-muted mb-3">Wok-tossed vegetables and noodles with our house Schezwan-style sauce—arriving sizzling for maximum drama.</p>
+                                <span class="fw-bold fs-5 text-dark">₹309</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="bg-white rounded shadow overflow-hidden h-100">
+                            <img class="img-fluid w-100" src="img/sizzlers1.jpg" alt="Paneer sizzler at Ginger and Lime">
+                            <div class="p-4">
+                                <h4 class="text-primary mb-2">Paneer sizzler</h4>
+                                <p class="text-muted mb-3">Golden paneer, seasonal veg, and our signature gravy—perfect when you want something hearty and a little indulgent.</p>
+                                <span class="fw-bold fs-5 text-dark">₹329</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sizzlers End -->
+
 
         <!-- Reservation Start -->
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <div class="video">
-                            <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
+                        <div class="reservation-static-photo">
+                            <img src="img/about-1.jpg" alt="Ginger and Lime—change the src to any photo in your img folder">
                         </div>
                     </div>
                     <div class="col-md-6 bg-dark d-flex align-items-center">
                         <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                             <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
-                            <h1 class="text-white mb-4">Book A Table Online</h1>
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating date" id="date3" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="datetime">Date & Time</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <select class="form-select" id="select1">
-                                            <option value="1">People 1</option>
-                                            <option value="2">People 2</option>
-                                            <option value="3">People 3</option>
-                                            </select>
-                                            <label for="select1">No Of People</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                            <label for="message">Special Request</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <h1 class="text-white mb-3">Book your table</h1>
+                            <p class="text-light mb-4">This site is static—there is no online form. Call or email us with your preferred date, time, and party size, and we will confirm your table.</p>
+                            <ul class="list-unstyled text-light mb-4">
+                                <li class="mb-3 d-flex align-items-start"><i class="fa fa-phone-alt text-primary me-3 mt-1"></i><span><a class="text-white text-decoration-none fw-semibold" href="tel:+910000000001">+91 00000 00001</a> <span class="text-white-50 small">(main)</span></span></li>
+                                <li class="mb-3 d-flex align-items-start"><i class="fa fa-phone-alt text-primary me-3 mt-1"></i><span><a class="text-white text-decoration-none fw-semibold" href="tel:+910000000002">+91 00000 00002</a> <span class="text-white-50 small">(alternate)</span></span></li>
+                                <li class="mb-0 d-flex align-items-start"><i class="fa fa-envelope text-primary me-3 mt-1"></i><span><a class="text-white text-decoration-none fw-semibold" href="mailto:book@gingerandlime.com">book@gingerandlime.com</a></span></li>
+                            </ul>
+                            <p class="text-white-50 small mb-0">Update the two numbers and email above in the HTML file whenever your contact details change.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Reservation Start -->
+        <!-- Reservation End -->
 
 
         <!-- Team Start -->
@@ -684,8 +742,9 @@
                             <div class="rounded-circle overflow-hidden m-4">
                                 <img class="img-fluid" src="img/team-1.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-1">Chef Name</h5>
+                            <p class="small text-muted px-2 mb-2">Leads Thai curries and coconut-based dishes. Obsessed with fresh herbs and the right level of heat.</p>
+                            <small class="text-primary">Head Chef</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -698,8 +757,9 @@
                             <div class="rounded-circle overflow-hidden m-4">
                                 <img class="img-fluid" src="img/team-2.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-1">Chef Name</h5>
+                            <p class="small text-muted px-2 mb-2">Sushi, maki, and cold plates. Trained in clean cuts and balanced dipping flavours.</p>
+                            <small class="text-primary">Japanese station</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -712,8 +772,9 @@
                             <div class="rounded-circle overflow-hidden m-4">
                                 <img class="img-fluid" src="img/team-3.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-1">Chef Name</h5>
+                            <p class="small text-muted px-2 mb-2">Woks, noodles, and Indo-Chinese favourites. High flame, big flavour.</p>
+                            <small class="text-primary">Chinese station</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -726,8 +787,9 @@
                             <div class="rounded-circle overflow-hidden m-4">
                                 <img class="img-fluid" src="img/team-4.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-1">Chef Name</h5>
+                            <p class="small text-muted px-2 mb-2">Pastry and plating. Makes sure every sizzler and dessert looks as good as it tastes.</p>
+                            <small class="text-primary">Pastry &amp; specials</small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -750,36 +812,36 @@
         <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item bg-transparent border rounded p-4">
                 <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed sed sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <p>We went for the Thai green curry and the paneer sizzler—both were piping hot and full of flavour. Staff suggested spice levels without making us feel rushed. Already planning our next visit.</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/team-4.jpg" style="width: 50px; height: 50px;">
+                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/team-4.jpg" alt="" style="width: 50px; height: 50px;">
                     <div class="ps-3">
-                        <h5 class="mb-1">Client Name</h5>
-                        <small>Profession</small>
+                        <h5 class="mb-1">Guest name</h5>
+                        <small class="text-muted">Local diner</small>
                     </div>
                 </div>
             </div>
 
             <div class="testimonial-item bg-transparent border rounded p-4" style="background-color: #FEA116 !important; color: white;">
                 <i class="fa fa-quote-left fa-2x text-white mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed sed sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <p>Brought the family on a Sunday; kids loved the momos and we loved the calm service. Feels like a neighbourhood spot with a menu that still surprises you.</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/team-2.jpg" style="width: 50px; height: 50px;">
+                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/team-2.jpg" alt="" style="width: 50px; height: 50px;">
                     <div class="ps-3">
-                        <h5 class="mb-1 text-white">Client Name</h5>
-                        <small>Profession</small>
+                        <h5 class="mb-1 text-white">Guest name</h5>
+                        <small class="text-white-50">Family dinner</small>
                     </div>
                 </div>
             </div>
 
             <div class="testimonial-item bg-transparent border rounded p-4">
                 <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed sed sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <p>First time trying their sushi rolls and dim sum—fresh, neatly plated, and fairly priced. Ginger &amp; Lime is our new go-to when friends want “a bit of everything.”</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/team-3.jpg" style="width: 50px; height: 50px;">
+                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/team-3.jpg" alt="" style="width: 50px; height: 50px;">
                     <div class="ps-3">
-                        <h5 class="mb-1">Client Name</h5>
-                        <small>Profession</small>
+                        <h5 class="mb-1">Guest name</h5>
+                        <small class="text-muted">Food enthusiast</small>
                     </div>
                 </div>
             </div>
@@ -803,12 +865,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                1. How can I book a table at Restoran?
+                                1. How do I book a table at Ginger &amp; Lime?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                You can easily book a table using our **'Book A Table'** button in the top navigation or on the hero section. You can also call us directly at (123) 456-7890 during operating hours.
+                                Call us on either of the numbers shown on the home page or Booking page, or email the booking address listed there, with your date, time, and party size. Replace the placeholder numbers and emails in the HTML with your real details.
                             </div>
                         </div>
                     </div>
@@ -816,12 +878,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                2. Do you offer online food delivery?
+                                2. Do you offer takeaway or delivery?
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, we offer online ordering and delivery! Please check the **Online Order** section in our menu or use a third-party service like Uber Eats or DoorDash to place your order for delivery.
+                                Yes—many guests order by phone for pickup. If you partner with a delivery app, add that link or name here in this answer so people know where to tap.
                             </div>
                         </div>
                     </div>
@@ -829,12 +891,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                3. What are your restaurant operating hours?
+                                3. What are Ginger &amp; Lime’s opening hours?
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                We are open from **11:00 AM to 10:00 PM** from Monday to Sunday. Our 24/7 service is available for specific online support inquiries.
+                                We follow the hours shown in the footer (adjust them there to match your kitchen). Last orders are usually thirty minutes before closing—ask when you call.
                             </div>
                         </div>
                     </div>
@@ -842,12 +904,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                4. Do you have options for vegan or gluten-free diets?
+                                4. Do you have vegetarian or vegan options?
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Absolutely! We have a dedicated section on our **Menu** page highlighting various **vegan, vegetarian, and gluten-free** options. Please inform your server of any severe allergies.
+                                Our menu is largely vegetable-forward—curries, momos, dim sum, noodles, and more. Tell us about allergies when you book or arrive so we can guide you plate by plate.
                             </div>
                         </div>
                     </div>
@@ -855,12 +917,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                5. Is there free parking available for customers?
+                                5. Is parking available for guests?
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, we offer **complimentary customer parking** in the lot adjacent to the restaurant. Valet service is also available on weekend evenings.
+                                Replace this text with what is true for your location—street parking, a nearby lot, or valet. Your address in the footer helps guests plan the last mile.
                             </div>
                         </div>
                     </div>
@@ -868,12 +930,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                6. Can I make a reservation for a large group or private event?
+                                6. Can we book for a large group or celebration?
                             </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                We welcome large group reservations and can host private events! Please contact us via the **Contact** page or mention your group size when using the Booking form.
+                                We love birthdays and team dinners. Email or call with your headcount and any cake or décor plans—we will suggest set menus or seating that fits.
                             </div>
                         </div>
                     </div>
@@ -881,12 +943,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                7. How do I change or cancel my reservation?
+                                7. How do I change or cancel a reservation?
                             </button>
                         </h2>
                         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                You can modify or cancel your reservation by clicking the link in your confirmation email, or by calling us directly at least 3 hours before your scheduled time.
+                                Phone or email us as early as you can—ideally a few hours ahead—so we can offer your table to another guest. We do not use an automated system on this static site.
                             </div>
                         </div>
                     </div>
@@ -894,12 +956,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                8. Do you sell physical or digital gift cards?
+                                8. Do you sell gift vouchers?
                             </button>
                         </h2>
                         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, both physical and e-gift cards are available for purchase directly on our website under the 'Pages' dropdown, or at the host stand in the restaurant.
+                                If you offer vouchers, describe how to buy them here (in person, WhatsApp, etc.). If not, say so and invite guests to treat friends by booking a table instead.
                             </div>
                         </div>
                     </div>
@@ -907,12 +969,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingNine">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                9. Are you currently hiring for Master Chefs or staff?
+                                9. Are you hiring chefs or service staff?
                             </button>
                         </h2>
                         <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                We are always looking for passionate individuals to join our team! Please visit our **Careers** page (or Contact page) to see current openings and submit your application.
+                                When we are hiring, we post on our Instagram and welcome CVs at hello@gingerandlime.com—swap that address in contact.html and the footer to match yours.
                             </div>
                         </div>
                     </div>
@@ -920,12 +982,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTen">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                10. How can I find out about special promotions or events?
+                                10. How can I hear about specials and new dishes?
                             </button>
                         </h2>
                         <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                The best way is to follow us on social media and sign up for our weekly **newsletter**! We regularly announce new menu items, discounts, and culinary events.
+                                Follow Ginger &amp; Lime on Instagram and Facebook—update the links in your footer and contact page. Weekend specials and festival menus usually go there first.
                             </div>
                         </div>
                     </div>
@@ -948,38 +1010,37 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Reservation</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Ginger &amp; Lime</h4>
+                        <p class="small mb-3">Thai, Japanese, and Chinese flavours in one warm dining room. Edit this blurb anytime in the HTML to match your story.</p>
+                        <a class="btn btn-link" href="about.html">About</a>
+                        <a class="btn btn-link" href="menu.html">Menu</a>
+                        <a class="btn btn-link" href="booking.html">Book a table</a>
+                        <a class="btn btn-link" href="contact.html">Contact</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Visit</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Your address, city</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 00000 00001</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 00000 00002</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>hello@gingerandlime.com</p>
+                        <div class="d-flex pt-2 flex-wrap gap-2">
+                            <a class="btn btn-outline-light btn-social" href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
                         <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                        <p>09AM - 09PM</p>
+                        <p>11:00 AM – 10:00 PM</p>
                         <h5 class="text-light fw-normal">Sunday</h5>
-                        <p>10AM - 08PM</p>
+                        <p>11:00 AM – 9:00 PM</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Stay in touch</h4>
+                        <p class="small">Hear about new dishes, sizzler nights, and holiday menus—paste your newsletter or WhatsApp link here when you have one.</p>
+                        <div class="position-relative mx-auto mt-3" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="email" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign up</button>
                         </div>
                     </div>
                 </div>

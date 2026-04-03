@@ -416,6 +416,21 @@
     opacity: 1;
 }
 
+/*** Reservation static photo (replace img/reservation-dining.jpg in HTML) ***/
+.reservation-static-photo {
+    min-height: 500px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.reservation-static-photo img {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
 
 /*** Team ***/
 .team-item {
